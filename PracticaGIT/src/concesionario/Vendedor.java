@@ -1,5 +1,7 @@
 package concesionario;
 
-public class Vendedor {
+public class Vendedor { 
+	String nomVendedor;
+	String apeVendedor;
 
 }

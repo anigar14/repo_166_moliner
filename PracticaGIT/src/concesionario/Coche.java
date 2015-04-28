@@ -1,5 +1,8 @@
 package concesionario;
 
 public class Coche {
-//Cambios nuevos
+	String matricula;
+	String marca;
+	String modelo;
+
 }

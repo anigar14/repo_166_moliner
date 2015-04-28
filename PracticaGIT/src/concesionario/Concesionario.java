@@ -1,5 +1,6 @@
 package concesionario;
 
 public class Concesionario {
-//Hola
+String nomConcesionario;
+String direcConcesionario;
 }
