@@ -15,6 +15,14 @@ public class Coche {
 		this.modelo = modelo;
 	}
 	String matricula;
+	/* (sin Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "Coche [matricula=" + matricula + ", marca=" + marca
+				+ ", modelo=" + modelo + "]";
+	}
 	String marca;
 	String modelo;
 	/**
