@@ -1,6 +1,8 @@
 package concesionario;
 
 public class Concesionario {
+	//Comentario  nuevo  en   clase Concesionario
+
 /**
 	 * @return el nomConcesionario
 	 */

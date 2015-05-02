@@ -1,6 +1,8 @@
 package concesionario;
 
 public class Cliente {
+	
+	//Comentario  nuevo  en   clase Cliente
 	/**
 	 * @param idCliente
 	 * @param nomCliente
