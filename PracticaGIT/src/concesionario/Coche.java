@@ -7,12 +7,14 @@ public class Coche {
 	 * @param matricula
 	 * @param marca
 	 * @param modelo
+	 * @param tipoMotor
 	 */
-	public Coche(String matricula, String marca, String modelo) {
+	public Coche(String matricula, String marca, String modelo, String tipoMotor) {
 		super();
 		this.matricula = matricula;
 		this.marca = marca;
 		this.modelo = modelo;
+		this.tipoMotor = tipoMotor;
 	}
 	String matricula;
 	/* (sin Javadoc)
@@ -21,12 +23,25 @@ public class Coche {
 	@Override
 	public String toString() {
 		return "**************************\n******** Coche ***********\n->Matricula=" + matricula + "\n->Marca=" + marca
-				+ "\n->Modelo=" + modelo + "\n***************************"
+				+ "\n->Modelo=" + modelo + "\n->tipoMotor=" + tipoMotor + "\n***************************"
 				;
 		
 	}
 	String marca;
 	String modelo;
+	String tipoMotor;
+	/**
+	 * @return el tipoMotor
+	 */
+	public String getTipoMotor() {
+		return tipoMotor;
+	}
+	/**
+	 * @param tipoMotor el tipoMotor a establecer
+	 */
+	public void setTipoMotor(String tipoMotor) {
+		this.tipoMotor = tipoMotor;
+	}
 	/**
 	 * @return el matricula
 	 */
