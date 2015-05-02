@@ -20,8 +20,10 @@ public class Coche {
 	 */
 	@Override
 	public String toString() {
-		return "Coche [matricula=" + matricula + ", marca=" + marca
-				+ ", modelo=" + modelo + "]";
+		return "**************************\n******** Coche ***********\n->Matricula=" + matricula + "\n->Marca=" + marca
+				+ "\n->Modelo=" + modelo + "\n***************************"
+				;
+		
 	}
 	String marca;
 	String modelo;
